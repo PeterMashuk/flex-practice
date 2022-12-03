@@ -1,0 +1,452 @@
+body{
+    margin: -20px;
+}
+/* Начало верстки первого блока*/
+.firstblock {
+    background-color: rgb(46, 75, 50);
+}
+
+.firstblock-contentpart {
+    max-width: 1300px;
+    margin: 0px auto;
+    background-color: rgb(46, 75, 50);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.blocktitle_list {
+    display: flex;
+    flex-direction: column;
+}
+
+.block_title {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+
+}
+.blocklist {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    margin-top: -20px;
+}
+
+.blocklist li{
+    list-style-type: none;
+    padding-top: 10px;
+}
+
+.blocklist li::before{
+    content: url(icon.png);
+}
+
+.blocklist li:last-child{
+    padding-top: none;
+}
+
+.blockimg {
+    margin: auto 0px;
+}
+.img {
+    border-radius: 10px;
+}
+/* Конец верстки первого блока*/
+/* Начало верстки второго блока*/
+.secondblock {
+    margin-top: 50px;
+}
+.contentpart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.blockimg {
+}
+.imgblock2 {
+    border-radius: 10px;
+}
+.text-titlecontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 250px;
+}
+.titleblock2 {
+    color: rgb(58, 75, 105);
+    font-size: 25px;
+    font-weight: lighter;
+    font-family: 'Ubuntu Condensed', sans-serif;
+
+    
+
+}
+.text-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.text-block_p1 {
+    color: rgb(58, 75, 105);
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 15px;
+
+}
+.text-block_p2 {
+    color: rgb(58, 75, 105);
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 15px;
+}
+/* Конец верстки второго блока*/
+
+
+/* Начало верстки третьего блока*/
+/* Начало верстки первой колонки в третьем блоке*/
+.thirdblock {
+    background-color: rgb(234, 239, 244);
+   
+
+   
+}
+.titlethirdblock {
+    background-color: rgb(234, 239, 244);
+    font-family: 'Ubuntu Condensed', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(58, 75, 105);
+    
+    
+    
+
+}
+.contentthirdblock {
+    background-color: rgb(234, 239, 244);
+    padding: 30px;
+    display: flex;
+    max-width: 1500px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.box1 {
+    display: flex;
+    flex-direction: row;
+
+}
+.blockimage_box1 {
+}
+.image_box1 {
+}
+.body_box1 {
+    padding-left: 15px;
+}
+.titlebody_box1 {
+    margin-top: -30px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 17px;
+    
+}
+.textbody_box1 {
+    width: 400px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+  
+}
+/*Конец верстки первой колонки в третьем блоке*/
+/*Начало верстки второй колонки в третьем блоке*/
+.box2 {
+    display: flex;
+    flex-direction: row;
+}
+.blockimage_box2 {
+}
+.image_box2 {
+}
+.body_box2 {
+    padding-left: 15px;
+}
+.titlebody_box2 {
+    margin-top: -30px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 17px;
+}
+.textbody_box2 {
+    width: 400px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+/*Конец верстки второй колонки в третьем блоке*/
+/*Начало верстки третьей колонки в третьем блоке*/
+.box3 {
+    display: flex;
+    flex-direction: row;
+}
+.blockimage_box3 {
+}
+.image_box3 {
+}
+.body_box3 {
+    padding-left: 15px;
+}
+.titlebody_box3 { 
+    margin-top: -30px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 17px
+}
+.textbody_box3 {
+    width: 400px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+/*Конец верстки третьей колонки в третьем блоке*/
+/*Начало верстки четвертой колонки в третьем блоке*/
+.box4 {
+    display: flex;
+    flex-direction: row
+}
+.blockimage_box4 {
+}
+.image_box4 {
+}
+.body_box4 {
+    padding-left: 15px;
+}
+.titlebody_box4 {
+    margin-top: -30px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 17px
+}
+.textbody_box4 {
+    width: 400px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+/*Конец верстки четвертой колонки в третьем блоке*/
+/* Конец верстки третьего блока*/
+
+
+/*Начало верстки четвертого блока*/
+/* Начало первой колонки*/
+.block4 {
+    text-align: center;
+
+}
+.title_block4 {
+    color: #3a4b69;
+    font-size: 25px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    margin: 0px auto;
+}
+.content_part {
+    max-width: 1300px;
+    margin: 0px auto;
+
+}
+.blockwithcolumns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+/* Начало первой колонки*/
+.column1 {
+    display: flex;
+    flex-direction: column;
+    background-color:  #3a4b69;
+    flex-basis: content;
+    max-width: 400px;
+    border-radius: 3px;
+
+}
+.titlecolumn1 {
+    color:aliceblue;
+    font-size: 20px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    margin: 0px auto;
+    text-transform: uppercase;
+    background-color:  #3a4b69;
+
+}
+.card1 {
+    margin: 1px;
+    background-color: rgb(255, 255, 255);
+}
+.titlecard1 {
+    color: #3a4b69;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+   
+}
+.textcolumn1 {
+    color:aliceblue ;
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    background-color: #3a4b69;
+    flex-grow: 1;
+}
+.blockwithbutton_column1 {
+    margin: 3px;
+}
+.blockformbutton_column1 {
+    margin: 0px auto;
+}
+.button_column1 {
+    background-color: rgb(255, 255, 255);
+    color: #3a4b69;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: none;
+    width: 120px;
+}
+/* Конец первой колонки*/
+/* Начало второй колонки*/
+.column2 {
+    display: flex;
+    flex-direction: column;
+    background-color:  #3a4b69;
+    flex-basis: content;
+    max-width: 400px;
+    border-radius: 3px;
+}
+.titlecolumn2 {
+    color:aliceblue;
+    font-size: 20px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    margin: 0px auto;
+    text-transform: uppercase;
+    background-color:  #3a4b69;
+}
+.card2 {
+    margin: 1px;
+    background-color: rgb(255, 255, 255);
+}
+.titlecard2 {
+    color: #3a4b69;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.textcolumn2 {
+    display: flex;
+    flex-direction: column;
+    color:aliceblue ;
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    background-color: #3a4b69;
+    flex-grow: 1;
+}
+.p1 {
+    color:aliceblue ;
+    background-color: #3a4b69;
+    border: none;
+    text-align: left;
+}
+.p2 {
+    color:aliceblue ;
+    background-color: #3a4b69;
+    border: none;
+    text-align: left;
+}
+.blockwithbutton_column2 {
+    margin: 3px;
+}
+.blockformbutton_column2 {
+    margin: 0px auto;
+    
+}
+.button_column2 {
+    background-color: rgb(255, 255, 255);
+    color: #3a4b69;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: none;
+    width: 100px;
+}
+/* Конец второй колонки*/
+
+
+/* Начало третьей колонки*/
+.column3 {
+    display: flex;
+    flex-direction: column;
+    background-color:  #3a4b69;
+    flex-basis: content;
+    max-width: 400px;
+    border-radius: 3px;
+}
+.titlecolumn3 {
+    color:aliceblue;
+    font-size: 20px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    margin: 0px auto;
+    text-transform: uppercase;
+    background-color:  #3a4b69;
+}
+.card3 {
+    margin: 1px;
+    background-color: rgb(255, 255, 255);
+}
+.titlecard3 {
+    color: #3a4b69;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.textcolumn3 {
+    display: flex;
+    flex-direction: column;
+    color:aliceblue ;
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    background-color: #3a4b69;
+    flex-grow: 1;
+}
+.blockwithbutton_column3 {
+    margin: 3px;
+}
+.blockformbutton_column3 {
+    margin: 0px auto;
+}
+.button_column3 {
+    color: #3a4b69;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: none;
+    
+    
+
+}
+/* Конец третьей колонки*/
+/* Конец третьего блока*/
+
+/* Начало подвала*/
+.basement {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: rgb(206, 212, 212);
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+/* Конец подвала*/
+
+.button_column1:hover{
+    box-shadow: 0px 0px 100px 10px white;
+}
+
+
+.button_column2:hover{
+    box-shadow: 0px 0px 100px 10px white;
+}
+
+.button_column3:hover{
+    box-shadow: 0px 0px 100px 10px white;
+}
+
+
